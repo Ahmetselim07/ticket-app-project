@@ -14,6 +14,8 @@ select.addEventListener("change",function(e){
      calculateTotal();
 });
 
+
+
 function calculateTotal(){
     let selectedSeatCount = container.querySelectorAll(".seat.selected").length;
     let price = select.value;
